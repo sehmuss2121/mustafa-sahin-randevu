@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="url(#goldGrad)" stroke-width="8" opacity="0.85" />
+  
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" transform="translate(0, -14)">
+    <circle cx="176" cy="336" r="44" />
+    <circle cx="336" cy="336" r="44" />
+    <line x1="208" y1="304" x2="340" y2="148" />
+    <line x1="304" y1="304" x2="172" y2="148" />
+  </g>
+  <text x="256" y="446" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="3">
+    MS HAIR
+  </text>
+</svg>
